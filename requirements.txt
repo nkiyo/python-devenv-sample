@@ -1,6 +1,8 @@
 ansible==2.5.1
 apache-libcloud==2.2.1
 asn1crypto==0.24.0
+asyncore-wsgi==0.0.9
+bottle==0.12.18
 certifi==2018.1.18
 chardet==3.0.4
 cliapp==1.20170827
@@ -46,6 +48,7 @@ six==1.15.0
 ttystatus==0.38
 typing==3.7.4.1
 urllib3==1.22
+web-pdb==1.5.3
 xmltodict==0.11.0
 yapf==0.30.0
 zipp==1.2.0
