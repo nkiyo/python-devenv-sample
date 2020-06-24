@@ -11,3 +11,4 @@ pip install flake8
 python -m flake8 sample.py
 ```
 
+pip install pep8-naming
