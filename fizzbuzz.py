@@ -1,12 +1,14 @@
-def fizzbuzz(i):
+def fizzbuzz(i: int) -> None:
+    s: str = 123
+    #s: str = ''
     if i % 3 == 0:
-        print('Fizz')
-    elif i % 5 == 0:
-        print('Buzz')
-    elif i % 15 == 0:
-        print('FizzBuzz')
-    else:
-        print(i)
+        s = 'Fizz'
+    if i % 5 == 0:
+        s = 'Buzz'
+    if i % 15 == 0:
+        s = 'FizzBuzz'
+    if s:
+        print(f'{i} {s} {type(s)}')
 
 for i in range(1, 21):
     fizzbuzz(i)
