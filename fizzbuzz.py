@@ -1,6 +1,6 @@
 def fizzbuzz(i: int) -> None:
-    s: str = 123
-    #s: str = ''
+    #s: str = 123 # mypy error
+    s: str = '' # mypy success
     if i % 3 == 0:
         s = 'Fizz'
     if i % 5 == 0:
