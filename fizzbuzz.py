@@ -10,5 +10,8 @@ def fizzbuzz(i: int) -> None:
     if s:
         print(f'{i} {s} {type(s)}')
 
+#import wdb; wdb.set_trace() # for wdb
+import web_pdb; web_pdb.set_trace()  # for python-web-pdb
 for i in range(1, 21):
     fizzbuzz(i)
+
