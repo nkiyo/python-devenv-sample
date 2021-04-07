@@ -2,7 +2,7 @@ ansible==2.5.1
 apache-libcloud==2.2.1
 asn1crypto==0.24.0
 asyncore-wsgi==0.0.9
-bottle==0.12.18
+bottle==0.12.19
 certifi==2018.1.18
 chardet==3.0.4
 cliapp==1.20170827
